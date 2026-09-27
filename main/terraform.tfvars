@@ -1,0 +1,4 @@
+cloud_id     = "b1g9q8gn2kmvh94lk1sr"
+folder_id    = "b1ge1609vkqipa8tm1qg"
+zone         = "ru-central1-a"
+network_name = "diplom-network"
