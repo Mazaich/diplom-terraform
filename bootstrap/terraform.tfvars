@@ -1,0 +1,5 @@
+cloud_id    = "b1g9q8gn2kmvh94lk1sr"
+folder_id   = "b1ge1609vkqipa8tm1qg"
+zone        = "ru-central1-a"
+bucket_name = "diplom-tfstate-mazaich"
+sa_name     = "terraform-sa"

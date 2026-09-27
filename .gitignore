@@ -19,3 +19,5 @@ terraform.rc
 *.pem
 *.key
 credentials*
+secrets.auto.tfvars
+*.auto.tfvars
