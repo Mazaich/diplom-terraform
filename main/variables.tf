@@ -19,3 +19,14 @@ variable "network_name" {
   type        = string
   default     = "diplom-network"
 }
+
+variable "sa_id" {
+  description = "ID сервисного аккаунта для Kubernetes"
+  type        = string
+}
+
+variable "k8s_version" {
+  description = "Версия Kubernetes"
+  type        = string
+  default     = "1.35"
+}
