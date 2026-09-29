@@ -21,6 +21,7 @@ resource "yandex_kubernetes_node_group" "worker_group" {
     }
 
     network_interface {
+      nat = true
       subnet_ids = [
         yandex_vpc_subnet.subnet_a.id,
         yandex_vpc_subnet.subnet_b.id,
