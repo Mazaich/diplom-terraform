@@ -4,3 +4,4 @@
 secrets.auto.tfvars
 *.auto.tfvars
 crash.log
+*.save
