@@ -1,6 +1,6 @@
 resource "yandex_vpc_network" "diplom_network" {
   name        = var.network_name
-  description = "Виртуальная сеть для диплома"
+  description = "Обновлено через Atlantis для проверки)))"
 }
 
 resource "yandex_vpc_subnet" "subnet_a" {
