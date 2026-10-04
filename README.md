@@ -28,8 +28,9 @@ Terraform-конфигурация облачной инфраструктуры
 
 ### 1. Bootstrap (один раз)
 
-```bash
-cd bootstrap
+Перейти в папку `bootstrap` и применить:
+
+```
 terraform init
 terraform apply
 ```
@@ -38,8 +39,9 @@ terraform apply
 
 ### 2. Основная инфраструктура
 
-```bash
-cd main
+Перейти в `main` и применить:
+
+```
 terraform init
 terraform apply
 ```
@@ -48,8 +50,9 @@ terraform apply
 
 ### 3. Удаление
 
-```bash
-cd main
+В папке `main` выполнить:
+
+```
 terraform destroy
 ```
 
